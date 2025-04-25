@@ -1,5 +1,4 @@
-/* General Reset and Body Styles */
-* {
+ {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -67,16 +66,16 @@ button:hover {
   margin-top: 20px;
 }
 
-/* Success and Game Over Styles */
+
 .success {
-  color: #27ae60;  /* Green for success */
+  color: #27ae60; 
 }
 
 .game-over {
-  color: #e74c3c;  /* Red for game over */
+  color: #e74c3c; 
 }
 
-/* Mobile and Tablet Friendly Styles */
+
 @media (max-width: 600px) {
   body {
     padding: 10px;
